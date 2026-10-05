@@ -1,0 +1,13 @@
+name: tron_cr
+version: 0.1.0
+crystal: ">= 1.21.0"
+description: |
+  Порт tron.rb 1.2.4 на Crystal: Tron::Key (secp256k1 через libsecp256k1 —
+  та же C-библиотека, что за rbsecp256k1), адреса (keccak256 + base58check),
+  подписи (RFC 6979, детерминированные). Tron::Client (HTTP/TronGrid) — TODO.
+
+authors:
+  - oleg
+
+libraries:
+  libsecp256k1: ">= 0.1"
