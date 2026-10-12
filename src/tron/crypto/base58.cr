@@ -9,7 +9,11 @@ module Tron
 
     def self.base58_encode(data : Bytes) : String
       return "" if data.empty?
-      zeros = data.count(&.zero?)
+      # ведущие нулевые байты → '1' (как в bitcoin base58)
+      zeros = 0
+      while zeros < data.size && data[zeros] == 0
+        zeros += 1
+      end
 
       # big-endian число в базе 58
       digits = Array(UInt8).new
@@ -31,7 +35,11 @@ module Tron
     end
 
     def self.base58_decode(data : String) : Bytes
-      zeros = data.count('1')
+      # ведущие '1' — это нулевые байты (считать только ведущие)
+      zeros = 0
+      while zeros < data.size && data[zeros] == '1'
+        zeros += 1
+      end
 
       bytes = Array(UInt8).new
       data.each_char do |ch|
@@ -49,7 +57,11 @@ module Tron
         end
       end
 
-      (Bytes.new(zeros) + bytes.reverse)
+      # 21-байтный адрес: ведущие нули + big-endian число
+      reversed = bytes.reverse
+      result = Bytes.new(zeros + reversed.size)
+      reversed.each_with_index { |b, i| result[zeros + i] = b }
+      result
     end
 
     def self.base58check(payload : Bytes) : String

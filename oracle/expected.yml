@@ -10,3 +10,104 @@ sign_hex	c6f2466f8975a1ed8cec28d5507d6fd0bd0ec6d9add650087654ad48598288133b25e1a
 personal_sign_hex	858a153e795fa391392a90ce93db2b012fec843e7a6a4ae32f1f00b886bf51277ad79b78f4d2d82881519110cc12ff7a941f0b58f69023b93ef9989e5f18920b01
 sign_typed_data_hex	9fb874fd4c92a64c61db710aa2ecaba2bc55f58a4ea16a598d4cc7d56bbb88bd6691bca943fa49f4721e8db939de50dd1b3ce7ef63392ccc813966c1a081da611c
 personal_prefix_hex	1954726f6e205369676e6564204d6573736167653a0a313248656c6c6f2c2054726f6e21
+addr_validate_true	true
+addr_validate_false_len	true
+addr_validate_false_prefix	false
+addr_validate_false_checksum	false
+addr_validate_false_empty	false
+addr_to_hex	41f696455b64d48b3c25bd1e98989654abcd096229
+addr_from_hex	TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN
+addr_to_base58_raw20	TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN
+addr_to_hex_passthrough	41f696455b64d48b3c25bd1e98989654abcd096229
+addr_to_base58_passthrough	TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN
+abi_split_params	uint256|(address,bytes32)[]|bool|string
+abi_type_err_foo	Unknown base type
+abi_type_err_uint7	Integer size out of bounds
+abi_type_err_addr8	Address cannot have suffix
+abi_type_to_s	(uint256,(string,bytes))[3][]
+abi_encode_transfer	a9059cbb000000000000000000000000f696455b64d48b3c25bd1e98989654abcd09622900000000000000000000000000000000000000000000000000000000000f4240
+abi_encode_noparams	12065fe0
+abi_encode_bytes16	4608ffba000000000000000000000000f696455b64d48b3c25bd1e98989654abcd0962290123456789abcdef0123456789abcdef00000000000000000000000000000000
+abi_encode_mixed	fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000f696455b64d48b3c25bd1e98989654abcd096229abababababababababababababababababababababababababababababababab
+abi_encode_dynamic	000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000120000000000000000000000000000000000000000000000000000000000000000a68656c6c6f2074726f6e0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000000000000000000000000000000000200000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000000000000004deadbeef00000000000000000000000000000000000000000000000000000000
+abi_encode_tuple	00000000000000000000000000000000000000000000000000000000000000400000000000000000000000000000000000000000000000000000000000000007000000000000000000000000000000000000000000000000000000000000002a000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000067061636b65640000000000000000000000000000000000000000000000000000
+abi_encode_ufixed	0000000000000000000000000000000000000000000000000000000000000380
+abi_encode_coerce_hex	000000000000000000000000000000000000000000000000000000000000002a
+abi_encode_coerce_oct	0000000000000000000000000000000000000000000000000000000000000008
+abi_encode_coerce_word	0000000000000000000000000000000000000000000000000000000000000000
+abi_encode_addr_0x	000000000000000000000000f696455b64d48b3c25bd1e98989654abcd096229
+abi_encode_hash	Argument too long: cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd
+abi_decode_roundtrip	[115792089237316195423570985008687907853269984665640564039457584007913129639935,-5,"true","TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN","hello tron",[1,2,3]]
+abi_decode_output_bool	true
+abi_decode_bytes	deadbeef
+abi_decode_output_addr	TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN
+abi_packed	00000000000000000000000000000309f696455b64d48b3c25bd1e98989654abcd09622901726177aabbccdd
+abi_function_signature	transfer(address,uint256)
+abi_function_method_id	a9059cbb
+abi_function_encode_input	a9059cbb000000000000000000000000f696455b64d48b3c25bd1e98989654abcd09622900000000000000000000000000000000000000000000000000000000000f4240
+abi_function_class_sig	a9059cbb
+abi_function_from_abi	722713f7
+abi_function_decode_output	[999]
+abi_event_topic	ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef
+abi_event_class_sig	ddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef
+abi_event_decode_log	{"name":"Transfer","params":[{"name":"from","type":"address","value":"TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN","indexed":"true"},{"name":"to","type":"address","value":"TDvSsdrNM5eeXNL3czpa6AxLDHZA9nwe9K","indexed":"true"},{"name":"value","type":"uint256","value":1000,"indexed":"false"}]}
+pb_serialize_trigger	0a02a1b210b9601a10c0ffee00c0ffee00c0ffee00c0ffee002080d095ffbc3150c0cbd8febc314880c2d72f3a6e081f126a0a1541f696455b64d48b3c25bd1e98989654abcd0962291215412b5ad5c4795c026514f8317c7a215e218dccd6cf1a06a9059cbb000020000a747970652e676f6f676c65617069732e636f6d2f70726f746f636f6c2e54726967676572536d617274436f6e7472616374
+pb_serializer_for_signing	0a02a1b210b9601a10c0ffee00c0ffee00c0ffee00c0ffee002080d095ffbc3150c0cbd8febc314880c2d72f3a6e081f126a0a1541f696455b64d48b3c25bd1e98989654abcd0962291215412b5ad5c4795c026514f8317c7a215e218dccd6cf1a06a9059cbb000020000a747970652e676f6f676c65617069732e636f6d2f70726f746f636f6c2e54726967676572536d617274436f6e7472616374
+pb_serialize_transfer	0a02a1b23a68080112640a1541f696455b64d48b3c25bd1e98989654abcd0962290a15412b5ad5c4795c026514f8317c7a215e218dccd6cf08e0c65b0a747970652e676f6f676c65617069732e636f6d2f70726f746f636f6c2e54726967676572536d617274436f6e7472616374
+cfg_urls_mainnet	https://api.trongrid.io|https://apilist.tronscanapi.com|300|600|100000000|30|true
+cfg_urls_shasta	https://api.shasta.trongrid.io|https://shasta.tronscan.org
+cfg_urls_nile	https://nile.trongrid.io|https://nileapi.tronscan.org
+chain_id_mainnet	728126428
+chain_id_nile	3448148188
+chain_id_err	Unknown network: shasta. Supported networks: :mainnet, :nile
+cache_fetch_first	v1
+cache_fetch_hit	v1
+cache_exists	true
+cache_global_stats	{"total_hits":1,"total_misses":1,"total_fetches":2,"hit_rate_percentage":50,"cache_size":1,"memory_keys":1}
+cache_delete_then_size	0
+client_get_wallet_balance	{"address":"TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN","trx_balance":"1500.000000","trc20_tokens":[{"symbol":"USDT","name":"Tether USD","balance":123.45,"decimals":6,"address":"TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"}]}
+client_cache_stats_err	private method 'cache_stats' called for an instance of Tron::Services::Balance
+client_get_wallet_balance_again	{"address":"TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN","trx_balance":"1500.000000","trc20_tokens":[{"symbol":"USDT","name":"Tether USD","balance":123.45,"decimals":6,"address":"TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"}]}
+client_cache_stats_err_again	private method 'cache_stats' called for an instance of Tron::Services::Balance
+balance_get_trx_empty	0.000000
+client_get_trc20_shasta	[{"symbol":null,"name":null,"balance":null,"raw_amount":989550000000,"decimals":null,"address":"TKnF3Ugr8FFPMLZyvLBJR4Di2fEH42amw3"}]
+resources_normal	{"bandwidth":500,"bandwidthLimit":600,"energy":75000,"energyLimit":100000,"storage":0,"storageLimit":0,"totalFreeBandwidth":43200000,"totalFreeBandwidthLimit":43200000}
+resources_error_default	{"bandwidth":0,"bandwidthLimit":0,"energy":0,"energyLimit":0,"storage":0,"storageLimit":0,"totalFreeBandwidth":0,"totalFreeBandwidthLimit":0}
+resources_fallback	{"bandwidth":90,"bandwidthLimit":100,"energy":100,"energyLimit":1000,"storage":7,"storageLimit":10,"totalFreeBandwidth":0,"totalFreeBandwidthLimit":0}
+price_usd_trx	0.2654
+price_usd_usdt	1
+price_token_raw	{"price_in_usd":"0.2654"}
+price_value_usd	26.54
+price_format_nil	(price unavailable)
+price_format_tiny	0.00001000 USD
+price_format_frac	0.500000 USD
+price_format_big	123.4568 USD
+client_get_full_account_info	{"address":"TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN","trx_balance":"1500.000000","trc20_tokens":[{"symbol":"USDT","name":"Tether USD","balance":123.45,"decimals":6,"address":"TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t"}],"resources":{"bandwidth":500,"bandwidthLimit":600,"energy":75000,"energyLimit":100000,"storage":0,"storageLimit":0,"totalFreeBandwidth":43200000,"totalFreeBandwidthLimit":43200000}}
+client_get_wallet_portfolio	{"address":"TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN","total_value_usd":521.55,"tokens":[{"symbol":"TRX","name":"Tronix","token_balance":1500,"decimals":6,"address":null,"price_usd":0.2654,"usd_value":398.1},{"symbol":"USDT","name":"Tether USD","token_balance":123.45,"decimals":6,"address":"TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t","price_usd":1,"usd_value":123.45,"raw_amount":null}]}
+tx_wait_success	{"txID":"9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a","ret":[{"contractRet":"SUCCESS"}]}
+tx_wait_revert	Transaction failed: Transfer failed
+contract_call_payment_processed	true
+contract_call_fee_destination	TKTX96CBxr5kvhjsDHcqoiPWZageGxoTW3
+contract_call_operator_registered	false
+contract_trigger_flow	{"result":true,"txid":"9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a"}
+contract_call_constant_hex	0000000000000000000000000000000000000000000000000000000000000000
+req_0	{"method":"GET","url":"https://api.trongrid.io/v1/accounts/TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN","body":null,"headers":{"accept":"application/json","tron-pro-api-key":"test-key"}}
+req_1	{"method":"GET","url":"https://apilist.tronscanapi.com/api/account/wallet?address=TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN&asset_type=1","body":null,"headers":{"accept":"application/json","tron-pro-api-key":"scan-key"}}
+req_2	{"method":"GET","url":"https://api.trongrid.io/v1/accounts/TMVQGm1qAQYVdetCeGRRkTWYYrLXuHK2HC","body":null,"headers":{"accept":"application/json","tron-pro-api-key":"test-key"}}
+req_3	{"method":"GET","url":"https://api.shasta.trongrid.io/v1/accounts/TDvSsdrNM5eeXNL3czpa6AxLDHZA9nwe9K","body":null,"headers":{"accept":"application/json","tron-pro-api-key":"test-key"}}
+req_4	{"method":"POST","url":"https://api.trongrid.io/wallet/getaccountresource","body":"\"{\\\"address\\\":\\\"TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN\\\",\\\"visible\\\":true}\"","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_5	{"method":"POST","url":"https://api.trongrid.io/wallet/getaccountresource","body":"\"{\\\"address\\\":\\\"TKTX96CBxr5kvhjsDHcqoiPWZageGxoTW3\\\",\\\"visible\\\":true}\"","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_6	{"method":"POST","url":"https://api.shasta.trongrid.io/wallet/getaccountresource","body":"\"{\\\"address\\\":\\\"TDvSsdrNM5eeXNL3czpa6AxLDHZA9nwe9K\\\",\\\"visible\\\":true}\"","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_7	{"method":"POST","url":"https://api.shasta.trongrid.io/wallet/getaccount","body":"\"{\\\"address\\\":\\\"TDvSsdrNM5eeXNL3czpa6AxLDHZA9nwe9K\\\",\\\"visible\\\":true}\"","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_8	{"method":"GET","url":"https://apilist.tronscanapi.com/api/token/price?token=trx","body":null,"headers":{"accept":"application/json","tron-pro-api-key":"scan-key"}}
+req_9	{"method":"GET","url":"https://apilist.tronscanapi.com/api/token/price?token=usdt","body":null,"headers":{"accept":"application/json","tron-pro-api-key":"scan-key"}}
+req_10	{"method":"POST","url":"https://api.trongrid.io/wallet/getaccountresource","body":"\"{\\\"address\\\":\\\"TYT3FFpHK86Xttcf2qTRP5QYeYft5gsLxN\\\",\\\"visible\\\":true}\"","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_11	{"method":"POST","url":"https://api.trongrid.io/wallet/gettransactionbyid","body":"{\"value\":\"9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a9c8a\"}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_12	{"method":"POST","url":"https://api.trongrid.io/wallet/gettransactionbyid","body":"{\"value\":\"7d117d117d117d117d117d117d117d117d117d117d117d117d117d117d117d11\"}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_13	{"method":"POST","url":"https://api.trongrid.io/wallet/gettransactioninfobyid","body":"{\"value\":\"7d117d117d117d117d117d117d117d117d117d117d117d117d117d117d117d11\"}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_14	{"method":"POST","url":"https://api.trongrid.io/wallet/triggerconstantcontract","body":"{\"contract_address\":\"412b5ad5c4795c026514f8317c7a215e218dccd6cf\",\"data\":\"4608ffba000000000000000000000000f696455b64d48b3c25bd1e98989654abcd0962290123456789abcdef0123456789abcdef00000000000000000000000000000000\",\"owner_address\":\"410000000000000000000000000000000000000000\"}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_15	{"method":"POST","url":"https://api.trongrid.io/wallet/triggerconstantcontract","body":"{\"contract_address\":\"412b5ad5c4795c026514f8317c7a215e218dccd6cf\",\"data\":\"19bffa36000000000000000000000000f696455b64d48b3c25bd1e98989654abcd096229\",\"owner_address\":\"410000000000000000000000000000000000000000\"}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_16	{"method":"POST","url":"https://api.trongrid.io/wallet/triggerconstantcontract","body":"{\"contract_address\":\"412b5ad5c4795c026514f8317c7a215e218dccd6cf\",\"data\":\"6b1906f8000000000000000000000000f696455b64d48b3c25bd1e98989654abcd096229\",\"owner_address\":\"410000000000000000000000000000000000000000\"}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_17	{"method":"POST","url":"https://api.trongrid.io/wallet/triggersmartcontract","body":"{\"contract_address\":\"412b5ad5c4795c026514f8317c7a215e218dccd6cf\",\"data\":\"a9059cbb000000000000000000000000f696455b64d48b3c25bd1e98989654abcd09622900000000000000000000000000000000000000000000000000000000000f4240\",\"fee_limit\":50000000,\"call_value\":0,\"owner_address\":\"41f696455b64d48b3c25bd1e98989654abcd096229\"}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_18	{"method":"POST","url":"https://api.trongrid.io/wallet/broadcasttransaction","body":"{\"txID\":\"abababababababababababababababababababababababababababababababab\",\"raw_data\":{\"contract\":[{\"parameter\":{\"value\":{\"data\":\"a9059cbb\",\"owner_address\":\"41f696455b64d48b3c25bd1e98989654abcd096229\",\"contract_address\":\"412b5ad5c4795c026514f8317c7a215e218dccd6cf\"},\"type_url\":\"type.googleapis.com/protocol.TriggerSmartContract\"},\"type\":\"TriggerSmartContract\"}],\"ref_block_bytes\":\"0a2f\",\"ref_block_hash\":\"cdcdcdcdcdcdcdcdcdcdcdcdcdcdcdcd\",\"expiration\":1700000000000,\"timestamp\":1699999000000},\"raw_data_hex\":\"0a2f\",\"signature\":[\"e93d289e7ab568c8718ca3aefbb0c4f4210ae9ff4b53030d63cb7c680dfc402850df9cb1dac688876db5b0e681e219c0c871418e4c408c024a48e4961505ed0a00\"]}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
+req_19	{"method":"POST","url":"https://api.trongrid.io/wallet/triggerconstantcontract","body":"{\"contract_address\":\"412b5ad5c4795c026514f8317c7a215e218dccd6cf\",\"data\":\"6b1906f8000000000000000000000000f696455b64d48b3c25bd1e98989654abcd096229\",\"owner_address\":\"410000000000000000000000000000000000000000\"}","headers":{"content-type":"application/json","tron-pro-api-key":"test-key"}}
